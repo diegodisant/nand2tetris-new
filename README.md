@@ -8,10 +8,11 @@ curl -s "https://get.sdkman.io" | bash
 sdk version
 sdk install java
 
-git clone <this repo>
+git clone #this repo
 
-cd scripts/
-./add-tools.sh
+cd nand2tetris-new
+
+echo "export PATH=$PATH:$(pwd)/tools" >> # your bashrc file
 ```
 
 ## Units
